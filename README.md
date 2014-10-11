@@ -1,4 +1,4 @@
-This is a for of evanplaice/node-ftpsync.
+This is a fork of evanplaice/node-ftpsync.
 
 there are slight differences from the original project.
 
