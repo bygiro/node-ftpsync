@@ -1,3 +1,7 @@
+This is a for of evanplaice/node-ftpsync.
+
+there are slight differences from the original project.
+
 An FTP synchronization app for NodeJS based on [jsftp](https://npmjs.org/package/jsftp). With an emphasis on speed and simplicity ftpsync aims to fulfull your one-click file deployment needs.
 
 [![NPM](https://nodei.co/npm/ftpsync.png)](https://nodei.co/npm/ftpsync/)
@@ -89,8 +93,8 @@ Contains the application settings for ftpsync.
   - `port` - port of the remote ftp server (default `21`).
   - `user` - ftp username (required).
   - `pass` - ftp password (required).
-  - `localRoot` - the root directory of the local host (default `'./'`).
-  - `remoteRoot` - the root path of the remote server (default `'./'`).
+  - `local` - the root directory of the local host (default `'./'`).
+  - `remote` - the root path of the remote server (default `'./'`).
   - `connections` - the max number of concurrent ftp connections (default `1`).
   - `ignore` - the list of file patterns to ignore.
 
